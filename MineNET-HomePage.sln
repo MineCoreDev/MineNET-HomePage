@@ -3,37 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MineNET-HomePage", "I:\Projects\Html\MineNET-HomePage\", "{6C08BCA2-AE5E-4E71-98AD-FF4F6AE3D035}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_57751"
-		Debug.AspNetCompiler.PhysicalPath = "I:\Projects\Html\MineNET-HomePage\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57751\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_57751"
-		Release.AspNetCompiler.PhysicalPath = "I:\Projects\Html\MineNET-HomePage\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57751\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "57751"
-		SlnRelativePath = "I:\Projects\Html\MineNET-HomePage\"
-		DefaultWebSiteLanguage = "Visual C#"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "News", "News", "{48C1ECE9-8BFB-4E34-9AF5-065437978A93}"
+	ProjectSection(SolutionItems) = preProject
+		News\News.html = News\News.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{79BCD778-0A40-4D0C-86FE-F9B5D7F352E6}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6C08BCA2-AE5E-4E71-98AD-FF4F6AE3D035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C08BCA2-AE5E-4E71-98AD-FF4F6AE3D035}.Debug|Any CPU.Build.0 = Debug|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48C1ECE9-8BFB-4E34-9AF5-065437978A93} = {79BCD778-0A40-4D0C-86FE-F9B5D7F352E6}
 	EndGlobalSection
 EndGlobal
