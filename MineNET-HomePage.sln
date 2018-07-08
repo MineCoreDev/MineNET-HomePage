@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{48C1ECE9-8BFB-4E34-9AF5-065437978A93}"
 	ProjectSection(SolutionItems) = preProject
-		News\News.html = News\News.html
+		Pages\News.html = Pages\News.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{79BCD778-0A40-4D0C-86FE-F9B5D7F352E6}"
